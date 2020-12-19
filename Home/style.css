@@ -1,0 +1,88 @@
+@keyframes fall{
+    from{opacity: 0;}
+    to{padding-left:0px}
+}
+
+
+
+body{background-attachment: fixed;
+    background-image: url(https://t3.ftcdn.net/jpg/03/67/13/74/360_F_367137432_ofpF6Pgb6d3z4KwDHOa0GYV0NaXbht6M.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f149;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    animation-name: fall;
+    animation-duration: 2s;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:solid 0.5px;
+    
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    box-shadow:20px,20px;
+}
+
+
+#pic{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 25em;
+    border-radius: 700px;
+    animation-name: fall;
+    animation-duration: 9s;
+}
+@keyframes text{
+    from{margin-top:500px}
+    to{margin-top:20px}
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 10em;
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top:20px;
+    animation-name:text;
+    animation-duration: 6s;
+}
+
+.rest{
+      display: flex;
+      justify-content: center;
+      margin:auto;
+      width: 10em;
+      
+      color: white;
+      padding: 25px;
+      border-radius: 20px;
+      margin-top:20px;
+      animation-name:text;
+      animation-duration: 6s;
+}

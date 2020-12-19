@@ -1,0 +1,67 @@
+body{
+    background-image: url(/img/background-careers.jpg);
+    width: auto;
+    height: 100vw;
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+@keyframes fall {
+    from {
+        color:black;
+        margin-top: 600px;
+    }
+
+    to {
+        margin-bottom: 0px;
+    }
+}
+
+h1{
+    animation-name: fall;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top:10em;
+}
+@keyframes appear{
+    from{color: transparent;
+    transform:rotate(360deg);}
+    to{border-radius: 20px;
+    
+    }
+}
+
+#name{
+    padding-left:20px;
+    padding-right:20px;
+    font-style: italic;
+    color:rgb(124, 82, 3);
+    font-family: fantasy;
+    animation-name:appear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+button{
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:20px;
+    background-color: transparent;
+    box-shadow: 10px,10px;
+    font-weight: bold;
+    
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px white;
+    transition:1s;
+}
