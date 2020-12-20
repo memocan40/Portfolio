@@ -93,4 +93,6 @@ li a:hover {
 
 .rest.mest:hover{
     transform: scale(1.1);
+    transition:1s;
+    
 }
