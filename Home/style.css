@@ -86,3 +86,11 @@ li a:hover {
       animation-name:text;
       animation-duration: 6s;
 }
+
+.rest.mest{
+    margin-left:1px;
+}
+
+.rest.mest:hover{
+    transform: scale(1.1);
+}
