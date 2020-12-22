@@ -147,6 +147,7 @@ input[type=submit]:hover {
 }
 
 .all{
+    padding-top:30px;
     display: flex;
     justify-content: center;
 }
