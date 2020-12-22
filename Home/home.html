@@ -7,18 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-   <ul>
-       <li><a class="a" href="#">Projects</a></li>
-       <li><a class="a" href="#">Contact</a></li>
-   </ul>
-    </nav>
+ 
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Projects</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
     <div><img id="pic" src="../img/Bild1.jpg" alt=""></div>
-    <div class="text"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio ut pariatur repellendus sapiente corrupti vero illum provident quos? Ullam quo aut iste voluptatem fuga quaerat fugiat illo quae excepturi soluta.</p></div>
-    <div class="rest"><h1>Skills</h1></div>
-    <div class="rest"><img  class="rest mest" src="/img/001-html-5.png" alt="">
+    <div class="text"><p>Hi, I am Mehmet Can and I'm a Junior Full Stack Developer.</p></div>
+    <div class="rest" id="skills"><h1>Skills</h1></div>
+    
+    <div class="rest">  <section id="section"></section>
+                        <img  class="rest mest" src="/img/001-html-5.png" alt="">
                         <img class="rest mest" src="../img/001-js.png" alt="">
-                        <img class="rest mest" src="../img/002-css.png" alt="">
+                        <img class="rest mest" id="css" src="../img/002-css.png" alt="">
                         <img class="rest mest" src="../img/002-react.png" alt="">
                         <img class="rest mest" src="../img/003-git.png" alt="">
     </div>
