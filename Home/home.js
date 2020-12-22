@@ -14,9 +14,13 @@ link[1].onmouseover=()=>{
     setTimeout(() => {
          link[1].style.transform="scale(1.0)";
          link[1].style.transition="1s";
-         section.innerHTML="";
+         
     }, 1000);
    
+}
+
+link[1].onmouseout=()=>{
+  section.innerHTML="";
 }
 
 link[2].onmouseover=()=>{
