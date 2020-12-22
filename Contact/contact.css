@@ -2,6 +2,7 @@ body{
     background-image: url(https://www.upperside.immo/wp-content/uploads/2015/10/contact-background.png);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -150,4 +151,16 @@ input[type=submit]:hover {
     padding-top:30px;
     display: flex;
     justify-content: center;
+}
+
+@keyframes animation{
+    from{margin-top:100em}
+    to{margin-bottom:0px}
+}
+
+#animation{
+
+    animation-name: animation;
+    animation-duration: 2s;
+
 }
