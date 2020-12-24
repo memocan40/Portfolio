@@ -97,3 +97,7 @@ section{
 #hello{
     margin-right:30px;
 }
+
+button{
+    opacity:0;
+}

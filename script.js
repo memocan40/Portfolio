@@ -19,11 +19,11 @@ function appear(){
         section.animate({
         "opacity":"4"
     },4000)
-    }, 3000);
+    }, 5000);
     
     setTimeout(() => {
         section.style.opacity="4"
-    }, 7000);
+    }, 9000);
     
 }
 
@@ -31,15 +31,28 @@ function slide(){
 
     setTimeout(() => {
         text.animate({"opacity":"4"},3000)
-    }, 2000);
+        
+    }, 4000);
     
     setTimeout(() => {
         text.style.opacity="4";
         
-    }, 5000);
+    }, 7000);
 }
 
+function butto(){
+    setTimeout(() => {
+        click.animate({
+            "opacity":"4"
+        },3000)
+        
+    }, 6000);
 
+    setTimeout(() => {
+        click.style.opacity="4"
+        
+    }, 9000);
+}
 
 
 
