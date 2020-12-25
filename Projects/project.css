@@ -66,3 +66,25 @@ span{
     position:fixed;
     color: white;
 }
+
+
+img{
+    width: 25em;
+    border-radius: 20px;
+}
+
+section{display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+
+div{display: flex;
+    flex-direction: column;
+    margin: 5em;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 2em;
+}

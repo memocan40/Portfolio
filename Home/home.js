@@ -5,7 +5,7 @@ const skills=document.getElementById("skills");
 
 
 link[1].onmouseover=()=>{
-    link[1].style.transform="scale(1.5)";
+    link[1].style.transform="scale(1.1)";
     const section =document.getElementById("section");
     section.innerHTML="Hi there!";
     section.style.transform="scale(1.1)";
