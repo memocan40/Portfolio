@@ -1,3 +1,13 @@
+body{
+    background-image: url(https://baxcompany.com/wp-content/uploads/2018/01/network-low.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
 .overlay {
     height: 100%;
     width: 0;
@@ -54,4 +64,5 @@
 
 span{
     position:fixed;
+    color: white;
 }
