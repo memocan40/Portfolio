@@ -3,17 +3,51 @@
     to{padding-left:0px}
 }
 
+body{margin:0px;}
 
-
-body{background-attachment: fixed;
+.Firstpart{background-attachment: fixed;
     background-image: url(https://t3.ftcdn.net/jpg/03/67/13/74/360_F_367137432_ofpF6Pgb6d3z4KwDHOa0GYV0NaXbht6M.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     height: auto;
-      
+    margin:0px;
+    padding:0px;
+}
+.Firstpart1{background-attachment: fixed;
+    background-image: url(https://lh3.googleusercontent.com/proxy/B-GhVVMyHhVgCWK-Pj-ujoItWP7qXpe7uRUVWNbxVUvAVaS79qShch7NsWjMIFHUjLuNL6-fyy4W55u5-FlT7e-ofqKM3J63eg2ZSzgqJAqNQtZUvmv9KToJba5GYg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    margin:0px;
+    padding:0px;
+}
+
+
+.Freespace1{
+    
+    height:20em;
+    background-image:url(https://i.pinimg.com/originals/89/bf/4c/89bf4ca8fc6d9dc4aa488a888965c39f.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.Secondpart{
+    background-attachment: fixed;
+    background-image: url(https://www.chiefsalesleader.com/wp-content/uploads/2018/02/TheNaviGuide%E2%84%A2-Maze-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 20em;
+    margin:auto;
+    color: white;
     
     
+    
+    
+
 }
 
 .overlay {
@@ -90,7 +124,7 @@ span{
     display: flex;
     justify-content: center;
     margin:auto;
-    width: 15em;
+    width: 20em;
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
     padding: 20px;
@@ -123,4 +157,16 @@ span{
     transform: scale(1.1);
     transition:1s;
     
+}
+button{
+    background-color:transparent;
+    border-radius:20px;
+    color:white;
+}
+
+.button1{
+    position:absolute;
+    top:10px;
+    right:10px;
+    color: white;
 }
