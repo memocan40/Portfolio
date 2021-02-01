@@ -44,14 +44,14 @@ function butto(){
     setTimeout(() => {
         click.animate({
             "opacity":"4"
-        },3000)
+        },2000)
         
-    }, 6000);
+    }, 5000);
 
     setTimeout(() => {
         click.style.opacity="4"
         
-    }, 9000);
+    }, 7000);
 }
 
 
