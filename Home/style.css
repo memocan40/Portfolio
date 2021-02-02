@@ -6,7 +6,7 @@
 body{margin:0px;}
 
 .Firstpart{background-attachment: fixed;
-    background-image: url(https://t3.ftcdn.net/jpg/03/67/13/74/360_F_367137432_ofpF6Pgb6d3z4KwDHOa0GYV0NaXbht6M.jpg);
+    background-image: url(https://iconwebdesign.com.au/wp-content/uploads/2019/06/Icon-Web-Design-Adelaide-Slider-Background-Image-2019-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -14,33 +14,29 @@ body{margin:0px;}
     margin:0px;
     padding:0px;
 }
-.Firstpart1{background-attachment: fixed;
-    background-image: url(https://lh3.googleusercontent.com/proxy/B-GhVVMyHhVgCWK-Pj-ujoItWP7qXpe7uRUVWNbxVUvAVaS79qShch7NsWjMIFHUjLuNL6-fyy4W55u5-FlT7e-ofqKM3J63eg2ZSzgqJAqNQtZUvmv9KToJba5GYg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    height: auto;
-    margin:0px;
-    padding:0px;
-}
+
 
 
 .Freespace1{
     
     height:20em;
-    background-image:url(https://i.pinimg.com/originals/89/bf/4c/89bf4ca8fc6d9dc4aa488a888965c39f.jpg);
+    background-image:url(https://ajahne.github.io/blog/assets/images/header.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
 
 .Secondpart{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:3em;
     background-attachment: fixed;
-    background-image: url(https://www.chiefsalesleader.com/wp-content/uploads/2018/02/TheNaviGuide%E2%84%A2-Maze-Background.jpg);
+    background-image: url(https://images2.alphacoders.com/480/thumb-1920-480530.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 20em;
+    height: auto;
     margin:auto;
     color: white;
     
@@ -107,12 +103,14 @@ span{
     color: white;
 }
 
+
 #pic{display: flex;
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    width: 25em;
-    border-radius: 700px;
+    padding-top:3em;
+    padding-bottom:3em;
+    width: 30em;
     animation-name: fall;
     animation-duration: 9s;
 }
@@ -169,4 +167,24 @@ button{
     top:10px;
     right:10px;
     color: white;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  border-radius:20px;
+  margin-top:2em;
+  margin-bottom:2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.842);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
