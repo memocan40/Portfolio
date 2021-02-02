@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://baxcompany.com/wp-content/uploads/2018/01/network-low.jpg);
+    background-image: url(https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -7,11 +7,10 @@ body{
 }
 
 
-
 .overlay {
     height: 100%;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
@@ -63,8 +62,7 @@ body{
 }
 
 span{
-    position:fixed;
-    color: white;
+    position: fixed;
 }
 
 
@@ -80,7 +78,7 @@ align-items: center;}
 
 div{display: flex;
     flex-direction: column;
-    margin: 5em;
+    margin-top:7giem;
     text-align: center;
 }
 
