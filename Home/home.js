@@ -8,14 +8,7 @@ const pic=document.getElementById("pic");
 
 
 
-button.addEventListener("click",()=>{
-  if(firstpart.className==="Firstpart"){firstpart.className="Firstpart1"}
-  else if(firstpart.className==="Firstpart1"){firstpart.className="Firstpart"}
-  if(pic.src="../img/Bild1.jpg"){pic.src="../img/pic4.jpg"}
-  else if(pic.src="../img/pic4.jpg"){pic.src="../img/Bild1.jpg"}
-  
-  
-})
+
 
 
 
