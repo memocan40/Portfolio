@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Images",
-    "\\public",
     "\\src",
-    "\\src\\Assets",
     "\\src\\components",
     "\\src\\components\\Home"
   ],
-  "SelectedNode": "\\public\\favicon.png",
+  "SelectedNode": "\\src\\components\\Footer.js",
   "PreviewInSolutionExplorer": false
 }
