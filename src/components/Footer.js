@@ -23,7 +23,7 @@ function Footer() {
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/Mehmet Can4419"
+                                href="https://github.com/memocan40"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -33,17 +33,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://twitter.com/Mehmet Can4419"
-                                style={{ color: "white" }}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <AiOutlineTwitter />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.linkedin.com/in/Mehmet Can4419/"
+                                href="https://www.linkedin.com/in/mehmet-can-580742168/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -51,16 +41,7 @@ function Footer() {
                                 <FaLinkedinIn />
                             </a>
                         </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                                style={{ color: "white" }}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <AiFillInstagram />
-                            </a>
-                        </li>
+
                     </ul>
                 </Col>
             </Row>
