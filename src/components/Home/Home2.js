@@ -67,7 +67,7 @@ function Home2() {
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/Mehmet Can4419"
+                                    href="https://github.com/memocan040"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -77,22 +77,12 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.linkedin.com/in/Mehmet Can4419/"
+                                    href="https://www.linkedin.com/in/mehmet-can-580742168/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
                                 >
                                     <FaLinkedinIn />
-                                </a>
-                            </li>
-                            <li className="social-icons">
-                                <a
-                                    href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour home-social-icons"
-                                >
-                                    <AiFillInstagram />
                                 </a>
                             </li>
                         </ul>
