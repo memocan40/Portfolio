@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-    "https://raw.githubusercontent.com/Mehmet Can4419/portfolio/master/src/Assets/SOumayajit_Behera_-BIT_MESRA.pdf";
+    "https://raw.githubusercontent.com/Mehmet Can4419/portfolio/master/src/Assets/-BIT_MESRA.pdf";
 
 function ResumeNew() {
     const [width, setWidth] = useState(1200);
@@ -29,7 +29,7 @@ function ResumeNew() {
                         style={{ maxWidth: "250px" }}
                     >
                         <AiOutlineDownload />
-                        &nbsp;Download CV
+                        &nbsp;Download CV Coming Soon...
                     </Button>
                 </Row>
 
@@ -47,7 +47,7 @@ function ResumeNew() {
                         style={{ maxWidth: "250px" }}
                     >
                         <AiOutlineDownload />
-                        &nbsp;Download CV
+                        &nbsp;Download CV Coming Soon...
                     </Button>
                 </Row>
             </Container>
