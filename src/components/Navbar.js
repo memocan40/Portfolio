@@ -39,7 +39,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
+                    <h1>Mc.</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -104,7 +104,7 @@ function NavBar() {
 
                         <Nav.Item className="fork-btn">
                             <Button
-                                href="https://github.com/Mehmet Can4419/Portfolio"
+                                href="https://github.com/memocan40/Interactive-Button"
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
