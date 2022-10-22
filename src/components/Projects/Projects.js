@@ -9,6 +9,7 @@ import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import button from "../../Assets/Projects/button.png";
+import javainteractive from "../../Assets/Projects/javaframe.png";
 
 function Projects() {
     return (
@@ -103,7 +104,15 @@ function Projects() {
                         />
                     </Col>
 
-
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={javainteractive}
+                            isBlog={false}
+                            title="A Interactive Frame in Java just a fun Project"
+                            description="you can download the jar file on github (download button for the jar in portfolio coming soon)"
+                            ghLink="https://github.com/memocan40/Java-Interactive"
+                        />
+                    </Col>
                 </Row>
             </Container>
         </Container>
