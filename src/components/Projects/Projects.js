@@ -7,7 +7,7 @@ import food from "../../Assets/Projects/foodnet.png";
 import todo from "../../Assets/Projects/todolist.jpg";
 import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import fourwins from "../../Assets/Projects/java4gewinnt.png";
 import button from "../../Assets/Projects/button.png";
 import javainteractive from "../../Assets/Projects/javaframe.png";
 import pythonpress from "../../Assets/Projects/pythonkeypress.png";
@@ -26,15 +26,13 @@ function Projects() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-
-                    <Col md={4} className="project-card">
+                <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={bitsOfCode}
+                            imgPath={fourwins}
                             isBlog={false}
-                            title="Bits-0f-C0de"
-                            description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-                            ghLink="https://github.com/Mehmet Can4419/Bits-0f-C0de"
-                            demoLink="https://blogs.soumya-jit.tech/"
+                            title="4 Wins"
+                            description="A Simple 4 Wins Game in Console Developed in Java Jar file download coming soon"
+                            ghLink="https://github.com/memocan40/java_4gewinnt"
                         />
                     </Col>
 
