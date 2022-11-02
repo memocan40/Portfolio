@@ -9,7 +9,6 @@ function Type() {
                     "Fullstack Developer",
                     "UI/UX Designer",
                     "Passionate Coder",
-                    "Love to learn new Coding Skills",
                     "Keep on learning and earning",
                 ],
                 autoStart: true,
