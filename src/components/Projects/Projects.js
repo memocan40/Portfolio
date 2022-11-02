@@ -9,6 +9,8 @@ import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
 import fourwins from "../../Assets/Projects/java4gewinnt.png";
 import button from "../../Assets/Projects/button.png";
+import javainteractive from "../../Assets/Projects/javaframe.png";
+import pythonpress from "../../Assets/Projects/pythonkeypress.png";
 
 function Projects() {
     return (
@@ -101,7 +103,24 @@ function Projects() {
                         />
                     </Col>
 
-
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={javainteractive}
+                            isBlog={false}
+                            title="A Interactive Frame in Java just a fun Project"
+                            description="you can download the jar file on github (download button for the jar in portfolio coming soon)"
+                            ghLink="https://github.com/memocan40/Java-Interactive"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={pythonpress}
+                            isBlog={false}
+                            title="A keypressing tool (you can choose on your own which key to be pressed permamently) for example for online games to farm automaticly the python file was converted to an exe with pytoexe download coming soon"
+                            description="you can download the exe file on github (download button for the jar in portfolio coming soon)"
+                            ghLink="https://github.com/memocan40/pythonKeypress"
+                        />
+                    </Col>
                 </Row>
             </Container>
         </Container>
