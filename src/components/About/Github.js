@@ -6,15 +6,12 @@ function Github() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                Days I <strong className="purple">Code</strong>
+                Currently learning own Project  <strong className="purple">.NET Framework</strong>
             </h1>
-            <GitHubCalendar
-                username="Mehmet Can4419"
-                blockSize={15}
-                blockMargin={5}
-                color="#c084f5"
-                fontSize={16}
-            />
+            <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+                Heading to learn  <strong className="purple">More & More :)</strong>
+            </h1>
+
         </Row>
     );
 }
