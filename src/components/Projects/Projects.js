@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import button from "../../Assets/Projects/button.png";
 import javainteractive from "../../Assets/Projects/javaframe.png";
 import pythonpress from "../../Assets/Projects/pythonkeypress.png";
+import cflappy from "../../Assets/Projects/cflappy.png";
 
 function Projects() {
     return (
@@ -121,6 +122,15 @@ function Projects() {
                             title="A keypressing tool (you can choose on your own which key to be pressed permamently) for example for online games to farm automaticly the python file was converted to an exe with pytoexe download coming soon"
                             description="you can download the exe file on github (download button for the jar in portfolio coming soon)"
                             ghLink="https://github.com/memocan40/pythonKeypress"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={cflappy}
+                            isBlog={false}
+                            title="Windows forms game like flappybirths"
+                            description="A Windows Forms game in FLappy birds"
+                            ghLink="https://github.com/memocan40/C-Flappy"
                         />
                     </Col>
                 </Row>
