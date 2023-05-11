@@ -12,6 +12,8 @@ import button from "../../Assets/Projects/button.png";
 import javainteractive from "../../Assets/Projects/javaframe.png";
 import pythonpress from "../../Assets/Projects/pythonkeypress.png";
 import cflappy from "../../Assets/Projects/cflappy.png";
+import angular from "../../Assets/Projects/Angular.jpg";
+import angulardotnet from "../../Assets/Projects/angularanddotnetcore.jpg";
 
 function Projects() {
     return (
@@ -26,6 +28,17 @@ function Projects() {
                     Loading more...
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={angulardotnet}
+                            isBlog={false}
+                            title="MyAngular"
+                            description="A Angular PlayGround Built with Asp.Net Core and AngularJs"
+                            ghLink="https://github.com/memocan40/MyAngular"
+                            demoLink="https://memocan40.github.io/MyAngular/"
+                        />
+                    </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
