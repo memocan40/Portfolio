@@ -27,29 +27,6 @@ function Projects() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={bitsOfCode}
-                            isBlog={false}
-                            title="Bits-0f-C0de"
-                            description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-                            ghLink="https://github.com/Mehmet Can4419/Bits-0f-C0de"
-                            demoLink="https://blogs.soumya-jit.tech/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={leaf}
-                            isBlog={false}
-                            title="Plant AI"
-                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-                            ghLink="https://github.com/Mehmet Can4419/Plant_AI"
-                            demoLink="https://plant49-ai.herokuapp.com/"
-                        />
-                    </Col>
-
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={food}
@@ -131,6 +108,17 @@ function Projects() {
                             title="Windows forms game like flappybirths"
                             description="A Windows Forms game in FLappy birds"
                             ghLink="https://github.com/memocan40/C-Flappy"
+                        />
+                    </Col>
+                    
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={leaf}
+                            isBlog={false}
+                            title="Plant AI"
+                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+                            ghLink="https://github.com/Mehmet Can4419/Plant_AI"
+                            demoLink="https://plant49-ai.herokuapp.com/"
                         />
                     </Col>
                 </Row>
