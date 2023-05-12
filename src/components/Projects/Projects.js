@@ -31,9 +31,20 @@ function Projects() {
 
                 <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={angulardotnet}
+                            imgPath={angular}
                             isBlog={false}
                             title="MyAngular"
+                            description="A Angular App in the making"
+                            ghLink="https://github.com/memocan40/AngularProject"
+                            demoLink="https://memocan40.github.io/AngularProject/"
+                        />
+                    </Col>
+
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={angulardotnet}
+                            isBlog={false}
+                            title="Dotnet Proxy server (might not start on ghpages)"
                             description="A Angular PlayGround Built with Asp.Net Core and AngularJs"
                             ghLink="https://github.com/memocan40/MyAngular"
                             demoLink="https://memocan40.github.io/MyAngular/"
