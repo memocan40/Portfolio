@@ -6,10 +6,10 @@ function Github() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                Currently learning own Project  <strong className="purple">.NET Framework</strong>
+            "Stay hungry for impact, for the hunger to make a difference through your code will drive you to create solutions that truly matter."  <strong className="purple">#Solutionist</strong>
             </h1>
             <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                Heading to learn  <strong className="purple">More & More :)</strong>
+            Stay focused, balance, and code with   <strong className="purple">purpose</strong>
             </h1>
 
         </Row>
