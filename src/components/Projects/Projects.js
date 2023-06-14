@@ -88,17 +88,6 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={button}
-                            isBlog={false}
-                            title="Dont Click it"
-                            description="Dont Click the button."
-                            ghLink="https://github.com/memocan40/Interactive-Button"
-                            demoLink="https://memocan40.github.io/Interactive-Button/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
                             imgPath={javainteractive}
                             isBlog={false}
                             title="A Interactive Frame in Java just a fun Project"
