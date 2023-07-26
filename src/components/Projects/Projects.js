@@ -7,10 +7,9 @@ import food from "../../Assets/Projects/foodnet.png";
 import todo from "../../Assets/Projects/todolist.jpg";
 import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
-import fourwins from "../../Assets/Projects/java4gewinnt.png";
-import button from "../../Assets/Projects/button.png";
-import javainteractive from "../../Assets/Projects/javaframe.png";
-import pythonpress from "../../Assets/Projects/pythonkeypress.png";
+import reactpage from "../../Assets/Projects/reactpage.png";
+import wbsalumni from "../../Assets/Projects/wbsalumni.png";
+
 
 function Projects() {
     return (
@@ -26,24 +25,27 @@ function Projects() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-                <Col md={4} className="project-card">
+
+                    <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={fourwins}
+                            imgPath={reactpage}
                             isBlog={false}
-                            title="4 Wins"
-                            description="A Simple 4 Wins Game in Console Developed in Java Jar file download coming soon"
-                            ghLink="https://github.com/memocan40/java_4gewinnt"
+                            title="Landing Page"
+                            description="Deployed on Netlify a Landing Page in React "
+                            ghLink="https://github.com/memocan40/React-Page"
+                            demoLink="https://master--stellular-cajeta-0cd5a7.netlify.app/"
+
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={leaf}
+                            imgPath={wbsalumni}
                             isBlog={false}
-                            title="Plant AI"
-                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-                            ghLink="https://github.com/Mehmet Can4419/Plant_AI"
-                            demoLink="https://plant49-ai.herokuapp.com/"
+                            title="Alumni Project"
+                            description="A Facebook clone as a Alumni Project with team collaborators , backend on heroku and frontend on netlify "
+                            ghLink="https://github.com/memocan40/WBS-Alumni-Frontend"
+                            demoLink="https://wbs-alumni.netlify.app/"
                         />
                     </Col>
 
@@ -92,33 +94,15 @@ function Projects() {
                         />
                     </Col>
 
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={button}
-                            isBlog={false}
-                            title="Dont Click it"
-                            description="Dont Click the button."
-                            ghLink="https://github.com/memocan40/Interactive-Button"
-                            demoLink="https://memocan40.github.io/Interactive-Button/"
-                        />
-                    </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={javainteractive}
+                            imgPath={leaf}
                             isBlog={false}
-                            title="A Interactive Frame in Java just a fun Project"
-                            description="you can download the jar file on github (download button for the jar in portfolio coming soon)"
-                            ghLink="https://github.com/memocan40/Java-Interactive"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={pythonpress}
-                            isBlog={false}
-                            title="A keypressing tool (you can choose on your own which key to be pressed permamently) for example for online games to farm automaticly the python file was converted to an exe with pytoexe download coming soon"
-                            description="you can download the exe file on github (download button for the jar in portfolio coming soon)"
-                            ghLink="https://github.com/memocan40/pythonKeypress"
+                            title="Plant AI"
+                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+                            ghLink="https://github.com/Mehmet Can4419/Plant_AI"
+                            demoLink="https://plant49-ai.herokuapp.com/"
                         />
                     </Col>
                 </Row>

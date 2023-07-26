@@ -6,15 +6,12 @@ function Github() {
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                Days I <strong className="purple">Code</strong>
+            "Stay hungry for impact, for the hunger to make a difference through your code will drive you to create solutions that truly matter."  <strong className="purple">#Solutionist</strong>
             </h1>
-            <GitHubCalendar
-                username="Mehmet Can4419"
-                blockSize={15}
-                blockMargin={5}
-                color="#c084f5"
-                fontSize={16}
-            />
+            <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+            Stay focused, balance, and code with   <strong className="purple">purpose</strong>
+            </h1>
+
         </Row>
     );
 }
