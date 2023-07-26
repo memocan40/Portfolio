@@ -8,6 +8,7 @@ import todo from "../../Assets/Projects/todolist.jpg";
 import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
 import reactpage from "../../Assets/Projects/reactpage.png";
+import wbsalumni from "../../Assets/Projects/wbsalumni.png";
 
 function Projects() {
     return (
@@ -31,6 +32,17 @@ function Projects() {
                             description="Deployed on Netlify a Landing Page in React "
                             ghLink="https://github.com/memocan40/React-Page"
                             demoLink="https://master--stellular-cajeta-0cd5a7.netlify.app/"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={wbsalumni}
+                            isBlog={false}
+                            title="Alumni Project"
+                            description="A Facebook clone as a Alumni Project with team collaborators , backend on heroku and frontend on netlify "
+                            ghLink="https://github.com/memocan40/WBS-Alumni-Frontend"
+                            demoLink="https://wbs-alumni.netlify.app/"
                         />
                     </Col>
 
