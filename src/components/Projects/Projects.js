@@ -10,6 +10,7 @@ import flappy from "../../Assets/Projects/flappy.png";
 import reactpage from "../../Assets/Projects/reactpage.png";
 import wbsalumni from "../../Assets/Projects/wbsalumni.png";
 
+
 function Projects() {
     return (
         <Container fluid className="project-section">
@@ -24,6 +25,7 @@ function Projects() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={reactpage}
@@ -32,6 +34,7 @@ function Projects() {
                             description="Deployed on Netlify a Landing Page in React "
                             ghLink="https://github.com/memocan40/React-Page"
                             demoLink="https://master--stellular-cajeta-0cd5a7.netlify.app/"
+
                         />
                     </Col>
 
