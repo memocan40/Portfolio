@@ -9,6 +9,7 @@ import calcul from "../../Assets/Projects/calcula.jpg";
 import flappy from "../../Assets/Projects/flappy.png";
 import reactpage from "../../Assets/Projects/reactpage.png";
 import wbsalumni from "../../Assets/Projects/wbsalumni.png";
+import landingpage  from "../../Assets/Projects/landingpage.png";
 
 
 function Projects() {
@@ -25,12 +26,23 @@ function Projects() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={landingpage}
+                            isBlog={false}
+                            title="Landing Page2"
+                            description="Deployed on Netlify a Landing Page in nextJs "
+                            ghLink="https://github.com/memocan40/LandingPage"
+                            demoLink="https://64cec5f02be4dd765cdf5476--tranquil-tulumba-066ce9.netlify.app/"
+
+                        />
+                    </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={reactpage}
                             isBlog={false}
-                            title="Landing Page"
+                            title="Landing Page1"
                             description="Deployed on Netlify a Landing Page in React "
                             ghLink="https://github.com/memocan40/React-Page"
                             demoLink="https://master--stellular-cajeta-0cd5a7.netlify.app/"
