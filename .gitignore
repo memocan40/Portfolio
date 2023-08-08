@@ -8,8 +8,7 @@
 # testing
 /coverage
 
-# production
-/build
+
 
 # misc
 .DS_Store
@@ -27,3 +26,5 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+# Local Netlify folder
+.netlify
