@@ -10,6 +10,7 @@ import flappy from "../../Assets/Projects/flappy.png";
 import reactpage from "../../Assets/Projects/reactpage.png";
 import wbsalumni from "../../Assets/Projects/wbsalumni.png";
 import landingpage  from "../../Assets/Projects/landingpage.png";
+import mvc from "../../Assets/Projects/mvcnet.png";
 
 
 function Projects() {
@@ -25,7 +26,17 @@ function Projects() {
                     Loading more...
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={mvc}
+                            isBlog={false}
+                            title=".NET6 MVC GuestBlog"
+                            description="Used .NET6 MVC and Docker to deploy on render with Dockerfile , used ElephantSQL as a Cloud Database feel Free to write a Message"
+                            ghLink="https://github.com/memocan40/GuestlistCs"
+                            demoLink="https://guestlist-ydtk.onrender.com/"
 
+                        />
+                    </Col>
                 <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={landingpage}
