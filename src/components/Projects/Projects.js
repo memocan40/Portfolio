@@ -31,8 +31,8 @@ function Projects() {
                             imgPath={mvc}
                             isBlog={false}
                             title=".NET6 MVC GuestBlog"
-                            description="Used .NET6 MVC and Docker to deploy on render with Dockerfile , used ElephantSQL as a Cloud Database"
-                            ghLink="https://github.com/memocan40/Guestlist"
+                            description="Used .NET6 MVC and Docker to deploy on render with Dockerfile , used ElephantSQL as a Cloud Database feel Free to write a Message"
+                            ghLink="https://github.com/memocan40/GuestlistCs"
                             demoLink="https://guestlist-ydtk.onrender.com/"
 
                         />
