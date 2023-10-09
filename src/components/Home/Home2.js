@@ -19,8 +19,7 @@ function Home2() {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            I get into programming and I have at least learnt
-                            something, I think… 🤷‍♂️
+                            I get into programming and learned multiple programming Languages,
                             <br />
                             <br />I am fluent in classics like
                             <i>
@@ -28,17 +27,17 @@ function Home2() {
                             </i>
                             <br />
                             <br />
-                            My field of Interest's are building new &nbsp;
+                            My field of Interest's are &nbsp;
                             <i>
-                                <b className="purple">Web Technologies and Products </b> and
+                                <b className="purple">Web Technologies </b> and
                                 also in areas related to{" "}
                                 <b className="purple">
-                                    Deep Learning and Proceeding Programming Skills.
+                                    Backend.
                                 </b>
                             </i>
                             <br />
                             <br />
-                            Whenever possible, I also apply my passion for developing products
+                            Whenever possible, I also apply my passion for developing 
                             with <b className="purple">Node.js</b> and
                             <i>
                                 <b className="purple">
@@ -48,7 +47,7 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> React.js and Next.js</b>
+                                <b className="purple"> React.js , sequelize or Entity</b>
                             </i>
                         </p>
                     </Col>
